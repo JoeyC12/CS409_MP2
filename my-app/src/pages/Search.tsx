@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { TMDBService } from '../services/tmdbService';
 import { Movie, SortOption, SortOrder } from '../types/movie';
