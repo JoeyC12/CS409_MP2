@@ -71,7 +71,6 @@ const Home: React.FC = () => {
       <section className="movies-section">
         <div className="section-header">
           <h2>Popular Movies</h2>
-          <Link to="/search" className="view-all-link">View All</Link>
         </div>
         <div className="movies-grid">
           {popularMovies.map((movie) => (
@@ -101,7 +100,6 @@ const Home: React.FC = () => {
       <section className="movies-section">
         <div className="section-header">
           <h2>Top Rated Movies</h2>
-          <Link to="/search" className="view-all-link">View All</Link>
         </div>
         <div className="movies-grid">
           {topRatedMovies.map((movie) => (
