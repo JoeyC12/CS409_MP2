@@ -9,7 +9,7 @@ import MovieDetail from './pages/MovieDetail';
 
 function App() {
   return (
-    <Router basename="/mp2">
+    <Router basename="/CS409_MP2">
       <div className="App">
         <Navbar />
         <main className="main-content">
